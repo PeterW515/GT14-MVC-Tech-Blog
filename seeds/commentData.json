@@ -13,5 +13,30 @@
     "post_id": 3,
     "content": "This is the first comment on this post!",
     "user_id": 2
+  },
+  {
+    "post_id": 3,
+    "content": "This is the 2nd comment on this post!",
+    "user_id": 1
+  },
+  {
+    "post_id": 3,
+    "content": "This is the 3rd comment on this post!",
+    "user_id": 1
+  },
+  {
+    "post_id": 3,
+    "content": "This is the 4th comment on this post!",
+    "user_id": 1
+  },
+  {
+    "post_id": 3,
+    "content": "This is the 5th comment on this post!",
+    "user_id": 2
+  },
+  {
+    "post_id": 3,
+    "content": "This is the 6th comment on this post!",
+    "user_id": 3
   }
 ]
