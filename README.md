@@ -4,6 +4,8 @@
 
   This is a complete front-end and back-end blogging website hosted on Heroku.
 
+  Check out the deployed app: https://gt14-mvc-tech-blog.herokuapp.com/
+
   ---
 
   ## Table of Contents
