@@ -1,20 +1,20 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{username}}!</h2>
+    <h4>Welcome, {{username}}!</h4>
   </div>
 </div>
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create a New Post:</h3>
+    <h5>Create a New Post:</h5>
 
     <form class="form new-post-form">
       <div class="form-group">
-        <label for="post-title">post title:</label>
+        <label for="post-title">Title:</label>
         <input class="form-input" type="text" id="post-title" name="post-title" />
       </div>
       <div class="form-group">
-        <label for="post-content">description:</label>
+        <label for="post-content">Content:</label>
         <textarea class="form-input" id="post-content" name="post-content"></textarea>
       </div>
       <div class="form-group">
@@ -25,12 +25,12 @@
 
   {{#if posts.length}}
   <div class="col-md-6 post-list">
-    <h3>Current Posts:</h3>
+    <h5>Current Posts:</h5>
 
     {{#each posts as |post|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/post/{{post.id}}">{{post.title}}</a></h4>
+        <h6><a href="/post/{{post.id}}">{{post.title}}</a></h6>
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
