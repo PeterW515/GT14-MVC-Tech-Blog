@@ -1,7 +1,11 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const post_id = window.location.pathname.substr(window.location.pathname.indexOf('path/'));
+  const pathName = window.location.pathname
+  const indexOfPath = window.location.pathname.indexOf('post/');
+  const post_id = pathName.substring(indexOfPath+5);
+ 
+  console.log(post_id);
   const content = document.querySelector('#comment-content').value.trim();
 
   if (content) {
@@ -40,4 +44,4 @@ const delButtonHandler = async (event) => {
 document
   .querySelector('.new-comment-form')
   .addEventListener('submit', newFormHandler);
-
+  

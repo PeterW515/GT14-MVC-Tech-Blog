@@ -17,8 +17,25 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
-}
+a, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+  height: 20px;
+ }
+
+ .no-button {
+   color: white;
+ }
+
+ nav .brand-logo{
+   font-size:50px;
+ }
+
+nav{
+ height:75px;
+ }
+
+ h3, h4, h5 {
+   color: white;
+ }
+
