@@ -1,17 +1,17 @@
 [
   {
-    "title": "First Post",
-    "content": "This is the first post on the blog!",
+    "title": "Coding Bootcamp",
+    "content": "I am nearly done the coding bootcamp and it has been great!",
     "user_id": 1
   },
   {
-    "title": "Second Post",
-    "content": "This is the second post on the blog!",
-    "user_id": 1
+    "title": "SQL vs NoSQL DB",
+    "content": "Is it better to have a relational DB or non-relational DB?",
+    "user_id": 2
   },
   {
-    "title": "Third Post",
-    "content": "This is the third post on the blog!",
-    "user_id": 1
+    "title": "Bootstrap is the best?",
+    "content": "I am starting a new website, is bootstrap the best css library?",
+    "user_id": 3
   }
 ]
